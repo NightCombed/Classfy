@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="imagens/ChatGPT Image 28 de abr. de 2025, 14_54_35.png" alt="Banner do Classfy" />
+</p>
+
 # 🎓 Classfy
 
 ---
