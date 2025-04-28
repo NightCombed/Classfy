@@ -1,66 +1,83 @@
 # 🎓 Classfy
 
-**Classfy** é uma plataforma social gamificada de desempenho educacional com suporte de Inteligência Artificial.  
-Conectando alunos e professores de maneira divertida, organizada e eficiente!
+---
+
+## 🚀 Visão geral
+
+**Classfy** é uma plataforma que conecta alunos e professores em um ambiente gamificado, onde:
+
+- 🎯 **Alunos** acompanham sua evolução em tempo real, com conquistas, status e rankings em formato de rede social educativa;
+- 📊 **Professores** acessam painéis inteligentes, com análises automáticas e diagnósticos de desempenho por **Inteligência Artificial (IA)**;
+- 💬 Tudo de maneira **visual, divertida e produtiva**, com foco em cursos técnicos e ensino médio integrado.
 
 ---
 
-## ✨ Visão Geral
+## 🧩 Estrutura do Projeto
 
-O **Classfy** integra:
-- 🎮 Gamificação para motivar o aprendizado.
-- 🧑‍🏫 Ferramentas para gestão de sala de aula.
-- 🤖 Inteligência Artificial para personalizar conteúdos.
-- 📚 Rede social acadêmica para interação e troca de conhecimento.
+### 1. Perfil Social do Estudante
+- Foto de perfil, nome, curso, turma, nível atual.
+- Exibe conquistas, trilhas concluídas, desafios resolvidos, grupos.
+- Feed de atividades, por exemplo:
+  > _"Luiz concluiu o desafio de lógica avançada!"_
 
----
+### 2. Sistema de Níveis e Rankings
+- Acúmulo de XP (experiência) por atividades:
+  - Resolver desafios;
+  - Participar de discussões;
+  - Cumprir trilhas de aprendizado.
+- Rankings semanais por:
+  - 🏫 Turma
+  - 🧑‍🎓 Curso
+  - 📚 Matéria
+  - 🌎 Região (futuramente)
 
-## 🚀 Funcionalidades Principais
+### 3. Trilhas de Conhecimento
+- Progressão em trilhas específicas:
+  - Exemplo: Programação → Lógica → Estruturas de Dados → Projetos Reais
+- Pequenos desafios sequenciais para avançar.
 
-### 👩‍🎓 Para Alunos
-- Painel de progresso gamificado.
-- Conquistas, rankings e troféus.
-- Atividades, quizzes e missões diárias.
-- Sugestões personalizadas de estudo com IA.
-- Rede social educacional.
+### 4. Painel Inteligente para Professores
+- Relatórios automáticos de desempenho (IA):
+  - Identificação de alunos com dificuldades.
+  - Análise de tópicos com maior taxa de erro.
+  - Comparativos entre turmas.
+- Sugestões de reforço, exemplo:
+  > _"Que tal revisar 'laços de repetição'? 63% da turma errou este desafio."_
 
-### 👨‍🏫 Para Professores
-- Criação de atividades e provas gamificadas.
-- Monitoramento de desempenho em tempo real.
-- Controle de interações durante as aulas.
-- Envio de feedbacks automáticos e personalizados.
-- Biblioteca de materiais didáticos.
-
-### 🛠️ Recursos Extras
-- Estatísticas inteligentes de desempenho.
-- Sistema de recompensas.
-- Ambiente focado para aulas ao vivo.
-- Comunicação direta aluno-professor.
-
----
-
-## 🧰 Tecnologias (Planejadas)
-
-- **Frontend**: React.js / Next.js
-- **Backend**: Node.js / NestJS
-- **Banco de Dados**: PostgreSQL
-- **IA**: Sistemas de recomendação e análise de performance
-- **Deploy**: Vercel / AWS
-- **Design System**: Interface minimalista
+### 5. Rede e Engajamento Social
+- Chat interno por trilha ou grupo.
+- Notificações de interações:
+  > _"Fulano respondeu sua dúvida!"_
+- Possibilidade de seguir amigos e visualizar progresso em tempo real.
 
 ---
 
-## 📈 Status do Projeto
+## 🛠️ Tecnologias Potenciais
 
-🔨 Em desenvolvimento:  
-- Estruturando funcionalidades.
-- Definindo protótipos de interface (UI/UX).
-- Elaborando fluxo de usuários.
+- **Backend**: Python (FastAPI) ou Node.js
+- **Banco de dados**: PostgreSQL + Redis (para notificações em tempo real)
+- **Frontend**: React.js + TailwindCSS ou Flutter (mobile-first)
+- **Inteligência Artificial**:
+  - Diagnóstico de dificuldades;
+  - Sugestões de trilhas personalizadas;
+  - Geração de relatórios analíticos.
+
+- **Gamificação**:
+  - Sistema de XP, níveis, medalhas e desafios.
 
 ---
 
-## 📄 Direitos Autorais
+## 🎯 Cenários de Uso
 
-Projeto privado. Todos os direitos reservados a Luiz Arthur Silva Lima.  
-O uso, cópia ou distribuição deste código é proibido sem autorização prévia.
+- O professor lança um desafio semanal valendo XP;
+- A turma compete nos rankings por nível e conquista;
+- A IA identifica temas de maior dificuldade (ex.: estruturas condicionais);
+- O professor visualiza rapidamente quem precisa de reforço ou destaque.
+
+---
+
+> ✨ Projeto idealizado para transformar o aprendizado em uma jornada engajadora e eficiente!
+
+### 🛡️ Licença
+Este projeto é privado. Todos os direitos reservados.
 
