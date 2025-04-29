@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagens/ChatGPT Image 28 de abr. de 2025, 14_54_35.png" alt="Banner do Classfy" />
+  <img src="imagens/Ícone de livro aberto com marcação.png" alt="Banner do Classfy" width="200" />
 </p>
 
 # 🎓 Classfy
